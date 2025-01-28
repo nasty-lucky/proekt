@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чизкейк Шоп</title>
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <nav class="navbar">
+        <div class="container"> 
+            <div class="row justify-content-between align-items-center">
+                <div class="logo"><a href="index.html"><span class="logo-circle"></span> Чизкейк Шоп</a></div>
+                <ul class="menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Главная</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+                    <li class="nav-item"><a href="#product" class="nav-link">Продукция</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section class="home-section" id="home">
+        <div class="effect-wrap">
+            <div class="effect effect1"></div>
+            <div class="effect effect2"></div>
+            <div class="effect effect3"></div>
+            <div class="effect effect4"></div>
+        </div>
+
+        <div class="container">
+            <div class="row full-screen align-items-center">
+                <div class="home-text">
+                    <h2>Нежные <span>Чизкейки</span></h2>  
+                    <p>Изысканные чизкейки из отборных ингридиентов</p>
+                    <a href="#product" class="btn1">Посмотреть продукцию</a>
+                </div>
+                
+                <div class="home-image">
+                    <div class="img-box">
+                        <img src="cheesecake_main.jpg" alt="Чизкейк">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "О нас" -->
+    <section class="about-section section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="cheesecake_about.jpg" alt="Чизкейк">
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <div class="section-title">
+                        <h1 class="title">О нас</h1>
+                    </div>
+
+                    <div class="about-content">
+                        <p>Наши чизкейки - это кусочек небесного наслаждения, который растопит ваше сердце.</p>
+                        <div class="color-container">
+                            <h3 class="title">Выберите вкус</h3>
+                            <div class="colors">
+                                <span class="color blue"></span>
+                                <span class="color purple"></span>
+                                <span class="color cyan"></span>
+                                <span class="color pink"></span>
+                                <span class="color green active"></span>
+                                <span class="color red"></span>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <h3 class="title">Цена (1,4 кг)</h3>
+                            <span class="new-price">999 р</span>
+                            <span class="old-price">1499 р</span> 
+                        </div>
+
+                        <a href="#contact" class="btn1">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Продукция" -->
+    <section class="product-items section-padding" id="product">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1 class="title">Продукция</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!-- Карточка товара -->
+                <div class="product-item">
+                    <div class="product-item-inner">
+                        <div class="card-img">
+                            <img src="lemon_cheesecake.jpg" alt="Лимонный чизкейк">
+                        </div>
+                        <div class="card-name">
+                            <p>Лимонный чизкейк</p>
+                        </div>
+                        <div class="card-prices">
+                            <a href="#" class="card-icon"><i class="fa-solid fa-heart"></i></a>
+                            <div>
+                                <span class="card-price card-price-before">1499 р</span>
+                                <span class="card-price card-price-now">999 р</span>
+                            </div>
+                            <a href="#" class="card-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Другие карточки товаров -->
+                <div class="product-item">
+                    <div class="product-item-inner">
+                        <div class="card-img">
+                            <img src="strawberry_cheesecake.jpg" alt="Клубничный чизкейк">
+                        </div>
+                        <div class="card-name">
+                            <p>Клубничный чизкейк</p>
+                        </div>
+                        <div class="card-prices">
+                            <a href="#" class="card-icon"><i class="fa-solid fa-heart"></i></a>
+                            <div>
+                                <span class="card-price card-price-before">1499 р</span>
+                                <span class="card-price card-price-now">999 р</span>
+                            </div>
+                            <a href="#" class="card-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Добавьте дополнительные карточки по аналогии -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Контакты" -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1 class="title">Контакты</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="contact-info">
+                    <h3>Свяжитесь с нами</h3>
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        <h4>Наш адрес:</h4>
+                        <p>Павловский тракт 251а</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Напишите нам:</h4>
+                        <p>a8839344@gmail.com</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Позвоните нам:</h4>
+                        <p>8 983 109 12 54</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="left">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Ваше имя" class="form-control">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="form-group">
+                                    <input type="email" placeholder="Ваш email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="full-width">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Ваш номер телефона" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="full-width">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Тема" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="full-width">
+                                <div class="form-group">
+                                    <textarea name="" cols="30" rows="10" placeholder="Ваше сообщение" class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="full-width">
+                                <button class="btn1" type="submit">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="left-col">
+                    <div class="logo"><a href="index.html"><span class="logo-circle"></span> Чизкейк Шоп</a></div>
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <p class="left-text">&copy; 2025 Created by ULTRA CODE. All rights reserved</p>
+                </div>
+
+                <div class="right-col">
+                    <h1>Новости</h1>
+                    <div class="border"></div>
+                    <p>Введите ваш email, чтобы получать новости и обновления</p>
+                    <form action="" class="newsletter-form">
+                        <input type="text" class="txtb" placeholder="Введите ваш email">
+                        <input type="submit" value="Подписаться" class="btn1">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
